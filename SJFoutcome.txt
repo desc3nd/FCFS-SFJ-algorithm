@@ -1,110 +1,37 @@
 name of process: 
-9
-income Time: 
+0
+arrival Time: 
 1
 Processing Time: 
-1
-Finish Time: 
 2
+Finish Time: 
+3
 waiting Time: 
 0
 -------------------------------
 name of process: 
-3
-income Time: 
+1
+arrival Time: 
 1
 Processing Time: 
-2
+3
 Finish Time: 
-4
-waiting Time: 
-1
--------------------------------
-name of process: 
 6
-income Time: 
-3
-Processing Time: 
-1
-Finish Time: 
-5
 waiting Time: 
-1
+2
 -------------------------------
 name of process: 
-0
-income Time: 
-1
-Processing Time: 
+2
+arrival Time: 
 4
+Processing Time: 
+3
 Finish Time: 
 9
 waiting Time: 
-4
--------------------------------
-name of process: 
-1
-income Time: 
-1
-Processing Time: 
-4
-Finish Time: 
-13
-waiting Time: 
-8
--------------------------------
-name of process: 
 2
-income Time: 
-2
-Processing Time: 
-4
-Finish Time: 
-17
-waiting Time: 
-11
 -------------------------------
-name of process: 
-4
-income Time: 
-4
-Processing Time: 
-4
-Finish Time: 
-21
-waiting Time: 
-13
--------------------------------
-name of process: 
-5
-income Time: 
-4
-Processing Time: 
-4
-Finish Time: 
-25
-waiting Time: 
-17
--------------------------------
-name of process: 
-7
-income Time: 
-4
-Processing Time: 
-4
-Finish Time: 
-29
-waiting Time: 
-21
--------------------------------
-name of process: 
-8
-income Time: 
-4
-Processing Time: 
-4
-Finish Time: 
-33
-waiting Time: 
-25
--------------------------------
+average arrival time: 2.0 +- 1.333
+average processing time: 2.667 +- 0.444
+average finish time: 6.0 +- 2.0
+average waiting time: 1.333 +- 0.889

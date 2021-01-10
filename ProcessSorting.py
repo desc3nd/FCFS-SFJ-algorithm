@@ -1,7 +1,7 @@
 from DataGenerator import listOfProcesses, save, returnNumberOfProcesses
 
 
-class FCFS:
+class Algorithm:
     def __init__(self):
         self.processesList = []
         self.readyProcess = []
@@ -14,18 +14,15 @@ class FCFS:
         self.sortedTuples = []
 
 
-    def algorithm(self):
+    def CreateReadyProcessList(self):
 
         for i in range(0, self.numberOfProcesses):
-            if self.processesList.process[i].incomeTime == str(self.time):
+            if self.processesList.process[i].arrivalTime == str(self.time):
                 self.readyProcess.append(self.processesList.process[i])
                 self.addedToList = self.addedToList + 1
 
         self.time = self.time + 1
 
-
-    def SJF(self):
-        self.algorithm()
 
     def sortSJF(self):
         length = len(self.readyProcess)

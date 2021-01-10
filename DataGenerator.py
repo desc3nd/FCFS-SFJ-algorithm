@@ -5,13 +5,13 @@ class oneProcessGenerate:
     def __init__(self, name):
         self.name = name
         self.processStatus = "New"
-        self.incomeTime = 0
+        self.arrivalTime = 0
         self.processingTime = 0
         self.finishTime = 0
         self.waitingTime = 0
 
     def generateRandom(self):
-        self.incomeTime = random.randint(1, 4)
+        self.arrivalTime = random.randint(1, 4)
         self.processingTime = random.randint(1, 4)
 
 
@@ -27,7 +27,7 @@ class listOfProcesses:
 
     def viewProcesses(self):
         for i in range(0, self.numberOfProcesses):
-            print("name:", self.process[i].name, "incomeTime:", self.process[i].incomeTime, "processingTime: ",
+            print("name:", self.process[i].name, "arrivalTime:", self.process[i].arrivalTime, "processingTime: ",
                   self.process[i].processingTime, "FinishTime: ", self.process[i].finishTime, "WaitingTime: ",
                   self.process[i].waitingTime)
 
@@ -41,9 +41,9 @@ class listOfProcesses:
             file.write('\n')
             file.write(str(self.process[i].name))
             file.write('\n')
-            file.write("income Time: ")
+            file.write("arrival Time: ")
             file.write('\n')
-            file.write(str(self.process[i].incomeTime))
+            file.write(str(self.process[i].arrivalTime))
             file.write('\n')
             file.write("processing Time: ")
             file.write('\n')
@@ -72,7 +72,7 @@ class listOfProcesses:
         for i in range(0, self.numberOfProcesses):
             self.process[i].name = self.listOfLines[jumper]
             jumper = jumper + 2
-            self.process[i].incomeTime = self.listOfLines[jumper]
+            self.process[i].arrivalTime = self.listOfLines[jumper]
             jumper = jumper + 2
             self.process[i].processingTime = self.listOfLines[jumper]
             jumper = jumper + 2
@@ -87,7 +87,7 @@ class listOfProcesses:
 
 
 def returnNumberOfProcesses():
-    numberOfProcesses = 10
+    numberOfProcesses = 3
     return numberOfProcesses
 
 
