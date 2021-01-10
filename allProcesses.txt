@@ -1,0 +1,100 @@
+name of process: 
+0
+income Time: 
+1
+processing Time: 
+4
+finish Time: 
+0
+waiting Time: 
+0
+name of process: 
+1
+income Time: 
+1
+processing Time: 
+4
+finish Time: 
+0
+waiting Time: 
+0
+name of process: 
+2
+income Time: 
+2
+processing Time: 
+4
+finish Time: 
+0
+waiting Time: 
+0
+name of process: 
+3
+income Time: 
+1
+processing Time: 
+2
+finish Time: 
+0
+waiting Time: 
+0
+name of process: 
+4
+income Time: 
+4
+processing Time: 
+4
+finish Time: 
+0
+waiting Time: 
+0
+name of process: 
+5
+income Time: 
+4
+processing Time: 
+4
+finish Time: 
+0
+waiting Time: 
+0
+name of process: 
+6
+income Time: 
+3
+processing Time: 
+1
+finish Time: 
+0
+waiting Time: 
+0
+name of process: 
+7
+income Time: 
+4
+processing Time: 
+4
+finish Time: 
+0
+waiting Time: 
+0
+name of process: 
+8
+income Time: 
+4
+processing Time: 
+4
+finish Time: 
+0
+waiting Time: 
+0
+name of process: 
+9
+income Time: 
+1
+processing Time: 
+1
+finish Time: 
+0
+waiting Time: 
+0
