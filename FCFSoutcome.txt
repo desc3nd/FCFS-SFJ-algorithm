@@ -3,9 +3,9 @@ name of process:
 arrival Time: 
 1
 Processing Time: 
-2
+1
 Finish Time: 
-3
+2
 waiting Time: 
 0
 -------------------------------
@@ -14,24 +14,24 @@ name of process:
 arrival Time: 
 1
 Processing Time: 
-3
-Finish Time: 
-6
-waiting Time: 
 2
+Finish Time: 
+4
+waiting Time: 
+1
 -------------------------------
 name of process: 
 2
 arrival Time: 
-4
+1
 Processing Time: 
-3
+4
 Finish Time: 
-9
+8
 waiting Time: 
-2
+3
 -------------------------------
-average arrival time: 2.0 +- 1.333
-average processing time: 2.667 +- 0.444
-average finish time: 6.0 +- 2.0
-average waiting time: 1.333 +- 0.889
+average arrival time: 1.0 +- 0.0
+average processing time: 2.333 +- 1.111
+average finish time: 4.667 +- 2.222
+average waiting time: 1.333 +- 1.111
